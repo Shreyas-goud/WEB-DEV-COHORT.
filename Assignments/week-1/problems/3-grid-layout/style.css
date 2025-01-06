@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.main{
+    color:#ccc;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:1200px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+.txt-1{
+    background-color: red;
+    padding:10px;
+}
+.txt-2{
+    background-color: blue;
+    padding:10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

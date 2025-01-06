@@ -1,0 +1,18 @@
+.main{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    gap:10px;
+    text-align: center;
+   
+}
+.txt-1{
+    background-color: red;
+    
+}
+.txt-2{
+    background-color: blue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}

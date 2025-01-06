@@ -1,0 +1,35 @@
+body{
+    background-color: #0e0e0e;
+}
+.main{
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: black;
+    border-radius: 3px;
+}
+.left-content{
+    color:#ccc;
+    
+}
+.right-content{
+    color: #ccc;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.right-content img{
+    width: 40px;
+    height: auto;
+    
+}
+.flex{
+    display: flex;
+}
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
